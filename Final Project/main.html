@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza-App</title>
+    <!-- Stylesheet Link -->
+    <link rel="stylesheet" href="/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+     <!--  Header Section -->
+    <header>
+        <nav class="nav">
+            <a href="">Tastyy</a>
+            <div class="icons">
+                <a href=""><img src="./img/user.png" alt=""></a>
+                <a href=""><img src="./img/message.png" alt=""></a>
+                <a class="cur"  href=""><img src="./img/cutlery (1).png" alt=""></a>
+                <a href=""><img src="./img/category.png" alt=""></a>
+            </div>
+            <div class="search">
+                <div class="s-img">
+                    <img src="./img/search.png" alt="">
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Main Section -->
+    <section>
+         <!-- Card Section -->
+        <div class="card-wrapper">
+            <img src="./img/next (1).png" alt="">
+            <div class="cards">
+                <div class="card sel" id="">
+                    <img src="" alt="">
+                    <p></p>
+                </div>
+                <div class="card" id="">
+                    <img src="" alt="">
+                    <p></p>
+                </div>
+                <div class="card" id="">
+                    <img src="" alt="">
+                    <p></p>
+                </div>
+                <div class="card" id="">
+                    <img src="" alt="">
+                    <p></p>
+                </div>
+            </div>
+            <img src="./img/next.png" alt="">
+        </div>
+        <!-- display Section -->
+        <div class="img-box">
+            <svg width="1011" height="1011" class="circle" viewBox="0 0 1011 1011" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" id="path" clip-rule="evenodd" d="M505.5 851C696.314 851 851 696.314 851 505.5C851 314.686 696.314 160 505.5 160C314.686 160 160 314.686 160 505.5C160 696.314 314.686 851 505.5 851ZM505.5 1011C784.68 1011 1011 784.68 1011 505.5C1011 226.32 784.68 0 505.5 0C226.32 0 0 226.32 0 505.5C0 784.68 226.32 1011 505.5 1011Z" fill="#ffa166"/>
+              </svg>                         
+            <img class="img" src="" alt="">
+        </div>
+        <div class="text-box">
+            <p class="dess com_e"></p>
+            <h1 class="head com_e"></h1>
+            <div class="cuisine">
+                <div class="con com_e">
+                    <img src="./img/cuisine.png" alt="">
+                    <p class="cui"></p>
+                </div>
+            </div>
+        </div>
+        <!-- Description Section -->
+        <div class="des">
+            <div class="link">
+                <a href="" id="over">Overview <span class="line"></span></a>
+                <a href="" id="ingr">Ingredients <span class="line"></span></a>
+            </div>
+            <div class="i-info show">
+                <div class="list com_i_e" id="list"></div>
+            </div>
+            <div class="content">
+                <div class="rating" id="rating">
+                    <span class="rat-num"></span>
+                    <i class="fa-solid fa-star" style="color: #48464b;"></i>
+                </div>
+                <div class="info">
+                    <h4 class="info-head com_i_e"></h4>
+                    <p class="info-para com_i_e"></p>
+                </div>
+            </div>
+            <div class="react">
+                <i class="fa-regular fa-light fa-thumbs-up" id="like" style="color: #000000;"></i>
+                <i class="fa-regular fa-thumbs-down" id="dislike" style="color: #000000;"></i>
+            </div>
+        </div>
+    </section>
+    <!-- Script File Link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="/main.js" type="module"></script>
+</body>
+</html>
