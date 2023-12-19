@@ -24,9 +24,9 @@ dislike.addEventListener('click',(e)=>{
 
 cards.forEach((e)=>{
     e.addEventListener('click',(e)=>{
-        const { id, parentNode } = e.target;
+        const { parentNode } = e.target;
             for (var i = 0; i < data.length; i++) {
-                if (data[i].id == id || data[i].id == parentNode.id) {
+                if (data[i].id == parentNode.id) {
                     cards[i].classList.add('sel');
                     textBox[0].classList.add("img_a")
                     setTimeout(animate,500,i)
